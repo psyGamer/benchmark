@@ -3,8 +3,8 @@ project "benchmark"
 	language "C++"
 	staticruntime "off"
 	
-	targetdir "build"
-	targetdir "build-temp"
+	targetdir "bin"
+	objdir "lib"
 	
 	includedirs "%{prj.location}/include"
 	
